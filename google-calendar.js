@@ -104,7 +104,7 @@ if (process.env.RUNTIME === "local") {
 
 
   // component props TODO expand props
-  component.calendarId = "pipedream.com_8khjp5mfv7t6tdsnnlo85bm18c@group.calendar.google.com"
+  component.calendarId
   component.googleCalendar = component.props.googleCalendar
   tokens = JSON.parse(raw)
   console.log("before run")
